@@ -50,7 +50,7 @@ uninstall() {
 git_commit_push() {
     echo "Committing and pushing changes to julesmuntz sub-repo..."
     # Get the current directory name to use as the sub-repo name
-    SUB_REPO_NAME=$(basename $(pwd))
+    SUB_REPO_NAME=julmuntz
     
     # Initialize Git if not already initialized
     if [ ! -d .git ]; then
